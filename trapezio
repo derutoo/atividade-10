@@ -1,0 +1,12 @@
+public class trapezio {
+    public static void main(String[] args) {
+
+        double baseMaior = 20.0;
+        double baseMenor = 10.0;
+        double altura = 5.0;
+
+        double area = (baseMaior + baseMenor) * altura / 2.0;
+
+        System.out.println("A área do trapézio é: " + area);
+    }
+}
